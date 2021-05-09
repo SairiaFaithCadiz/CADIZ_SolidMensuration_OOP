@@ -27,7 +27,7 @@ public class cuboid {
         return TSA;
     }
     double volume() {
-        double V = length*base*height;
+        double V = 2*(length+base)*height;
         return V;
     }
     void cuboid_details(){
@@ -45,15 +45,19 @@ public class cuboid {
             }
                     String unit1 = JOptionPane.showInputDialog("Enter units used: ");
                     JOptionPane.showMessageDialog(null,"Entered units is "+unit1);
+                    
                     int A1= Integer.parseInt(JOptionPane.showInputDialog("Enter length value: "));
                     JOptionPane.showMessageDialog(null,"Entered length value is "+A1+" "+unit1);
                     System.out.println("length: "+A1+" "+unit1);
+                    
                     int B1= Integer.parseInt(JOptionPane.showInputDialog("Enter base value: "));
                     JOptionPane.showMessageDialog(null,"Entered base value is "+B1+" "+unit1);
                     System.out.println("base: "+B1+" "+unit1);
+                    
                     int C1= Integer.parseInt(JOptionPane.showInputDialog("Enter height value: "));
                     JOptionPane.showMessageDialog(null,"Entered height value is "+C1+" "+unit1);
                     System.out.println("height: "+C1+" "+unit1);
+                    
                     System.out.println("ANSWER:");
             switch (find1){
                 case 1:

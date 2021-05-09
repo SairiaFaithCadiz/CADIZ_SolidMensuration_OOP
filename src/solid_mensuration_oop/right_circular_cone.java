@@ -46,15 +46,19 @@ public class right_circular_cone {
             }
                     String unit4 = JOptionPane.showInputDialog("Enter units used: ");
                     JOptionPane.showMessageDialog(null,"Entered units is "+unit4);
+                    
                     int A4= Integer.parseInt(JOptionPane.showInputDialog("Enter height value: "));
                     JOptionPane.showMessageDialog(null,"Entered height value is "+A4+" "+unit4);
                     System.out.println("height: "+A4+" "+unit4);
+                    
                     int B4= Integer.parseInt(JOptionPane.showInputDialog("Enter radius value: "));
                     JOptionPane.showMessageDialog(null,"Entered radius value is "+B4+" "+unit4);
                     System.out.println("radius: "+B4+" "+unit4);
+                    
                     int C4= Integer.parseInt(JOptionPane.showInputDialog("Enter length value: "));
                     JOptionPane.showMessageDialog(null,"Entered length value is "+C4+" "+unit4);
                     System.out.println("length: "+C4+" "+unit4);
+                    
                     System.out.println("ANSWER:");
             switch (find4){
                 case 1:
