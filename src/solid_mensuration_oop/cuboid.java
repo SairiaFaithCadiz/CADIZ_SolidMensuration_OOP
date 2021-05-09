@@ -27,7 +27,7 @@ public class cuboid {
         return TSA;
     }
     double volume() {
-        double V = 2*(length+base)*height;
+        double V = length*base*height;
         return V;
     }
     void cuboid_details(){
